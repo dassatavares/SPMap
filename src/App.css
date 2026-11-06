@@ -1,0 +1,40 @@
+.unidades-map .contornosCidades {
+  fill: #e9eff7;
+  stroke: #cbd5e1;
+  stroke-width: 76;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  transition: fill 180ms ease;
+}
+
+.unidades-map .contornosGrosso {
+  fill: none;
+  stroke: #94a3b8;
+  stroke-width: 353;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.unidades-map .highlighted {
+  fill: #e48911 !important;
+}
+
+.unidades-map .vigente {
+  fill: #2374bd;
+}
+
+.unidades-map .nao-vigente {
+  fill: #e58b48;
+}
+
+.unidades-map {
+  display: block;
+  height: auto;
+  max-height: 620px;
+  aspect-ratio: 1.6;
+  border-radius: 40px;
+}
+
+.unidades-map .contornosCidades:hover {
+  filter: brightness(0.94);
+}
